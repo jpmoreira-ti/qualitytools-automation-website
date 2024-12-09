@@ -5,24 +5,28 @@ import SearchBar from "../components/SearchBar";
 
 const apiTemplates = [
   {
+    id: "dotnet",
     name: ".NET + RestSharp",
     link: "https://github.com/jpmoreira-ti/template-dotnet-api-tests",
     imgSrc: "/img/dotnet-logo.png",
     alt: ".NET Repository",
   },
   {
-    name: "JavaScript + SuperTest",
+    id: "javascript",
+    name: "JavaScript + SuperTest + Jest",
     link: "https://github.com/jpmoreira-ti/template-javascript-api-tests",
     imgSrc: "/img/javascript-logo.png",
     alt: "JavaScript Repository",
   },
   {
+    id: "java",
     name: "Java + RestAssured",
     link: "https://github.com/jpmoreira-ti/template-java-api-tests",
     imgSrc: "/img/java-logo.png",
     alt: "Java Repository",
   },
   {
+    id: "python",
     name: "Python + Robot Framework",
     link: "https://github.com/jpmoreira-ti/template-python-api-tests",
     imgSrc: "/img/python-logo.png",
@@ -32,6 +36,7 @@ const apiTemplates = [
 
 const webTemplates = [
   {
+    id: "cypress",
     name: "Javascript + Cypress",
     link: "https://github.com/jpmoreira-ti/template-web-cypress-tests",
     imgSrc: "/img/cypress.png",
@@ -62,8 +67,8 @@ export default function Home() {
         <hr className="w-full border-t border-gray-300 my-4" />
         <div className="grid grid-cols-2 gap-8 mt-4 w-full">
           {filteredApiTemplates.map((template) => (
-            <div key={template.name} className="flex flex-col items-center text-center">
-              <h2 className="text-xl font-bold mb-2">{template.name}</h2>
+            <div key={template.id} className="flex flex-col items-center text-center">
+              <h2 id={template.id} className="text-xl font-bold mb-2">{template.name}</h2>
               <a href={template.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={template.imgSrc}
@@ -80,8 +85,8 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-center mt-4">Templates WEB</h1>
         <div className="grid grid-cols-2 gap-8 mt-4 w-full">
           {filteredWebTemplates.map((template) => (
-            <div key={template.name} className="flex flex-col items-center text-center">
-              <h2 className="text-xl font-bold mb-2">{template.name}</h2>
+            <div key={template.id} className="flex flex-col items-center text-center">
+              <h2 id={template.id} className="text-xl font-bold mb-2">{template.name}</h2>
               <a href={template.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={template.imgSrc}

@@ -10,6 +10,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, setSearchTerm }) => {
   return (
     <div className="relative w-full max-w-md mb-4">
       <input
+        id="search-input-templates"
         type="text"
         placeholder="Search templates..."
         value={searchTerm}
