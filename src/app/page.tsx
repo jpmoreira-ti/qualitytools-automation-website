@@ -60,7 +60,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 items-center w-full max-w-4xl">
         <h1 className="text-4xl font-bold text-center mt-4">Quality Tools Automation</h1>
         <p className="text-center text-lg">
-          Welcome to my template repository! I'm João Paulo Moreira and I've been working as a SDET over 6 years. This page is dedicated to providing templates for API test automation, mobile test automation, and performance testing. Browse through the templates below and click on the links to access the corresponding GitHub repositories. I hope it can helping you in your test automation journey! 
+          Welcome to my template repository! I&apos;m João Paulo Moreira and I&apos;ve been working as a SDET over 6 years. This page is dedicated to providing templates for API test automation, mobile test automation, and performance testing. Browse through the templates below and click on the links to access the corresponding GitHub repositories. I hope it can helping you in your test automation journey! 
         </p>
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <h1 className="text-2xl font-bold text-center mt-4">Templates API</h1>
