@@ -44,6 +44,16 @@ const webTemplates = [
   },
 ];
 
+const mobileTemplates = [
+  {
+    id: "Compose-ui",
+    name: "Instrumented Tests with Compose UI",
+    link: "https://github.com/jpmoreira-ti/template-compose-ui-tests",
+    imgSrc: "/img/compose-ui.png",
+    alt: "Android Compose Repository",
+  },
+];
+
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -52,6 +62,10 @@ export default function Home() {
   );
 
   const filteredWebTemplates = webTemplates.filter((template) =>
+    template.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  const filteredMobileTemplates = mobileTemplates.filter((template) =>
     template.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -107,6 +121,25 @@ export default function Home() {
         </div>
         <hr className="w-full border-t border-gray-300 my-8" />
         <h1 className="text-2xl font-bold text-center mt-4">Templates MOBILE</h1>
+        <div className="grid grid-cols-2 gap-8 mt-4 w-full">
+          {filteredMobileTemplates.map((template, index) => (
+            <div
+            key={template.id}
+            className={`flex flex-col items-center text-center ${index === 1 ? 'mb-16' : ''}`}
+          >
+              <h2 id={template.id} className="text-xl font-bold mb-2">{template.name}</h2>
+              <a href={template.link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={template.imgSrc}
+                  alt={template.alt}
+                  width={200}
+                  height={200}
+                  className="rounded-lg"
+                />
+              </a>
+            </div>
+          ))}
+        </div>
       </main>
     </div>
   );
