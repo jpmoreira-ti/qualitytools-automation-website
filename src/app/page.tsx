@@ -9,28 +9,28 @@ const apiTemplates = [
     name: "RestSharp",
     link: "https://github.com/jpmoreira-ti/template-dotnet-api-tests",
     imgSrc: "/img/dotnet-logo.png",
-    alt: ".NET Repository",
+    alt: ".NET API Template Repository",
   },
   {
     id: "javascript",
     name: "SuperTest",
     link: "https://github.com/jpmoreira-ti/template-javascript-api-tests",
     imgSrc: "/img/javascript-logo.png",
-    alt: "JavaScript Repository",
+    alt: "JavaScript API Template Repository",
   },
   {
     id: "java",
     name: "RestAssured",
     link: "https://github.com/jpmoreira-ti/template-java-api-tests",
     imgSrc: "/img/java-logo.png",
-    alt: "Java Repository",
+    alt: "Java API Template Repository",
   },
   {
     id: "python",
     name: "Robot F.",
     link: "https://github.com/jpmoreira-ti/template-python-api-tests",
     imgSrc: "/img/python-logo.png",
-    alt: "Python Repository",
+    alt: "Python API Template Repository",
   },
 ];
 
@@ -40,7 +40,14 @@ const webTemplates = [
     name: "Cypress",
     link: "https://github.com/jpmoreira-ti/template-web-api-cypress-tests",
     imgSrc: "/img/cypress.png",
-    alt: "Cypress Repository",
+    alt: "Cypress Web API Template Repository",
+  },
+  {
+    id: "robot-web",
+    name: "Robot F. Web",
+    link: "https://github.com/jpmoreira-ti/template-web-robot-framework",
+    imgSrc: "/img/robotf.png",
+    alt: "Robot Framework Web Template Repository",
   },
 ];
 
@@ -51,7 +58,7 @@ const mobileTemplates = [
     link: "https://github.com/jpmoreira-ti/template-compose-ui-tests",
     imgSrc: "/img/compose-ui.png",
     alt: "Android Compose Repository",
-  },
+  }
 ];
 
 export default function Home() {
