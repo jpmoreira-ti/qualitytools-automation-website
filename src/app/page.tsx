@@ -38,7 +38,7 @@ const webTemplates = [
   {
     id: "cypress",
     name: "Cypress",
-    link: "https://github.com/jpmoreira-ti/template-web-cypress-tests",
+    link: "https://github.com/jpmoreira-ti/template-web-api-cypress-tests",
     imgSrc: "/img/cypress.png",
     alt: "Cypress Repository",
   },
