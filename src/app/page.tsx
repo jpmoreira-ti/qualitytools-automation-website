@@ -27,7 +27,7 @@ const apiTemplates = [
   },
   {
     id: "python",
-    name: "Robot F.",
+    name: "Robot F + Requests",
     link: "https://github.com/jpmoreira-ti/template-python-api-tests",
     imgSrc: "/img/python-logo.png",
     alt: "Python API Template Repository",
@@ -44,7 +44,7 @@ const webTemplates = [
   },
   {
     id: "robot-web",
-    name: "Robot F. Web",
+    name: "Robot F. + Selenium",
     link: "https://github.com/jpmoreira-ti/template-web-robot-framework",
     imgSrc: "/img/robotf.png",
     alt: "Robot Framework Web Template Repository",
