@@ -93,12 +93,12 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 sm:p-20 gap-8">
       <main className="flex flex-col gap-8 items-center w-full max-w-4xl">
-        <h1 className="text-4xl font-bold text-center mt-4">Quality Tools Automation</h1>
+        <h1 id="main-title" className="text-4xl font-bold text-center mt-4">Quality Tools Automation</h1>
         <p className="text-center text-lg">
           Welcome to my template repository! I&apos;m João Paulo Moreira and I&apos;ve been working as a SDET for over 6 years. This page is dedicated to providing templates for API, Web and Mobile automation testing and performance/load testing. Browse through the templates below and click on the links to access the corresponding GitHub repositories. I hope it can helping you in your test automation journey! 
         </p>
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-        <h1 className="text-2xl font-bold text-center mt-4">API testing templates</h1>
+        <h1 id="api-template-title" className="text-2xl font-bold text-center mt-4">API testing templates</h1>
         <hr className="w-full border-t border-gray-300 my-4" />
         <div className="grid grid-cols-2 gap-8 mt-4 w-full">
         {filteredApiTemplates.map((template, index) => (
@@ -120,7 +120,7 @@ export default function Home() {
         ))}
       </div>
         <hr className="w-full border-t border-gray-300 my-8" />
-        <h1 className="text-2xl font-bold text-center mt-4">Web testing templates</h1>
+        <h1 id="mobile-template-title" className="text-2xl font-bold text-center mt-4">Web testing templates</h1>
         <div className="grid grid-cols-2 gap-8 mt-4 w-full">
           {filteredWebTemplates.map((template, index) => (
             <div
@@ -162,7 +162,7 @@ export default function Home() {
           ))}
         </div>
         <hr className="w-full border-t border-gray-300 my-8" />
-        <h1 className="text-2xl font-bold text-center mt-4">Load testing templates</h1>
+        <h1 id="perfomance-template-title" className="text-2xl font-bold text-center mt-4">Perfomance testing templates</h1>
         <div className="grid grid-cols-2 gap-8 mt-4 w-full">
           {filteredPerfomanceTemplates.map((template, index) => (
             <div
