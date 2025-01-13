@@ -53,11 +53,18 @@ const webTemplates = [
 
 const mobileTemplates = [
   {
-    id: "Compose-ui",
+    id: "Compose-ui-mobile",
     name: "Instrumented Tests with Compose UI",
     link: "https://github.com/jpmoreira-ti/template-compose-ui-tests",
-    imgSrc: "/img/compose-ui-logo.png",
+    imgSrc: "/img/jetpack-compose-ui.png",
     alt: "Android Compose Repository",
+  },
+  {
+    id: "robot-mobile",
+    name: "Robot F. with Appium",
+    link: "https://github.com/jpmoreira-ti/template-mobile-robot-framework",
+    imgSrc: "/img/robotf-logo.png",
+    alt: "Robot Framework Mobile Template Repository",
   }
 ];
 
