@@ -44,7 +44,7 @@ const webTemplates = [
   },
   {
     id: "robot-web",
-    name: "Robot F. with Selenium",
+    name: "Robot F. with Browser",
     link: "https://github.com/jpmoreira-ti/template-web-robot-framework",
     imgSrc: "/img/robotf-logo.png",
     alt: "Robot Framework Web Template Repository",
