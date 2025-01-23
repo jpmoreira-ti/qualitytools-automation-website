@@ -5,28 +5,28 @@ import SearchBar from "../components/SearchBar";
 
 const apiTemplates = [
   {
-    id: "dotnet",
+    id: "dotnet-api",
     name: "RestSharp",
     link: "https://github.com/jpmoreira-ti/template-dotnet-api-tests",
     imgSrc: "/img/dotnet-logo.png",
     alt: ".NET API Template Repository",
   },
   {
-    id: "javascript",
+    id: "javascript-api",
     name: "SuperTest",
     link: "https://github.com/jpmoreira-ti/template-javascript-api-tests",
     imgSrc: "/img/javascript-logo.png",
     alt: "JavaScript API Template Repository",
   },
   {
-    id: "java",
+    id: "java-api",
     name: "RestAssured",
     link: "https://github.com/jpmoreira-ti/template-java-api-tests",
     imgSrc: "/img/java-logo.png",
     alt: "Java API Template Repository",
   },
   {
-    id: "python",
+    id: "python-api",
     name: "Robot F. with Requests",
     link: "https://github.com/jpmoreira-ti/template-python-api-tests",
     imgSrc: "/img/python-logo.png",
@@ -36,7 +36,7 @@ const apiTemplates = [
 
 const webTemplates = [
   {
-    id: "cypress",
+    id: "cypress-web",
     name: "Cypress",
     link: "https://github.com/jpmoreira-ti/template-web-api-cypress-tests",
     imgSrc: "/img/cypress-logo.png",
@@ -54,7 +54,7 @@ const webTemplates = [
 const mobileTemplates = [
   {
     id: "Compose-ui-mobile",
-    name: "Instrumented Tests with Compose UI",
+    name: "Instrumented Tests with ComposeUI",
     link: "https://github.com/jpmoreira-ti/template-compose-ui-tests",
     imgSrc: "/img/jetpack-compose-ui.png",
     alt: "Android Compose Repository",
@@ -65,7 +65,14 @@ const mobileTemplates = [
     link: "https://github.com/jpmoreira-ti/template-mobile-robot-framework",
     imgSrc: "/img/robotf-logo.png",
     alt: "Robot Framework Mobile Template Repository",
-  }
+  },
+  {
+    id: "webdriverio-mobile",
+    name: "WebdriverIO with Appium",
+    link: "https://github.com/jpmoreira-ti/template-mobile-webdriverIO",
+    imgSrc: "/img/webdriverio.png",
+    alt: "WebDriverIO Mobile Template Repository",
+  },
 ];
 
 const perfomanceTemplates = [
