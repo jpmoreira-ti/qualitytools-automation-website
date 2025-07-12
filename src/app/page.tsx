@@ -54,10 +54,10 @@ const webTemplates = [
 const mobileTemplates = [
   {
     id: "Compose-ui-mobile",
-    name: "Instrumented Tests with ComposeUI",
-    link: "https://github.com/jpmoreira-ti/template-compose-ui-tests",
-    imgSrc: "/img/jetpack-compose-ui.png",
-    alt: "Android Compose Repository",
+    name: "Instrumented Tests with Espresso",
+    link: "https://github.com/jpmoreira-ti/espresso-app-test",
+    imgSrc: "/img/espresso.png",
+    alt: "Android Espresso Repository",
   },
   {
     id: "robot-mobile",

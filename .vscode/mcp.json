@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "browserstack": {
+      "command": "npx",
+      "args": ["-y", "@browserstack/mcp-server@latest"],
+      "env": {
+        "BROWSERSTACK_USERNAME": "joaopaulomoreira_uZeO4s",
+        "BROWSERSTACK_ACCESS_KEY": "ZCHCa44M85VUw3H17Drr"
+      }
+    }
+  }
+}
